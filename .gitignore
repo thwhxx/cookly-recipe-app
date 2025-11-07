@@ -1,0 +1,70 @@
+# ===== ANDROID / KOTLIN / COMPOSE =====
+.gradle/
+build/
+*/build/
+local.properties
+.DS_Store
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Generated files
+captures/
+navigation.json
+output.json
+
+# Gradle Wrapper logs
+gradlew.bat
+gradlew
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Kotlin
+/.kotlin/
+*.kt~ 
+*.kts~
+
+# Signing / credentials (just in case)
+*.jks
+*.keystore
+signing.properties
+keystore.properties
+
+# Logs
+*.log
+log/
+logs/
+
+# OS & temp
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.tmp
+*.temp
+*.bak
+
+# Jetpack Compose preview cache
+compose-cache/
+
+# Crashlytics / analytics
+app/google-services.json
+firebase/
+fabric.properties
+
+# Misc
+*.orig
+*.rej
+*.swp
+*.swo
+
+# ===== OPTIONAL (if you use VSCode or other IDEs) =====
+.vscode/
+*.code-workspace
+
+# ===== OPTIONAL (if you use Mac) =====
+.AppleDouble
+.DS_Store
