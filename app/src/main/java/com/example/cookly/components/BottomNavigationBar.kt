@@ -1,6 +1,7 @@
 package com.example.cookly.components
 
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.Settings
@@ -19,7 +20,7 @@ fun BottomNavigationBar(navController: NavController) {
     val items = listOf("home", "recipes", "profile", "settings")
     val icons = listOf(
         Icons.Default.Home,
-        Icons.Default.Home,
+        Icons.Default.Edit,
         Icons.Default.Person,
         Icons.Default.Settings
     )

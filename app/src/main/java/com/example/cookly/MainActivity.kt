@@ -23,7 +23,6 @@ class MainActivity : ComponentActivity() {
         setContent {
             CooklyTheme {
                 AppRoot()
-//                AppNavigation()
             }
         }
     }
@@ -53,21 +52,3 @@ fun MainAppWithNavBar() {
         )
     }
 }
-
-//@Composable
-//fun AppNavigation(modifier: Modifier = Modifier) {
-//    var showSplash by remember { mutableStateOf(true) }
-//    if (showSplash) {
-//        SplashScreen(onTimeout = { showSplash = false })
-//    } else {
-//        CooklyNav()
-//    }
-//}
-
-//@Preview(showBackground = true)
-//@Composable
-//fun SplashScreenPreview() {
-//    CooklyTheme() {
-//       SplashScreen(onTimeout = {})
-//    }
-//}

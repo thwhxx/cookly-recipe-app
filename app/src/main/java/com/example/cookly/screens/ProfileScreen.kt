@@ -21,6 +21,6 @@ fun ProfileScreen() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text("👤 User Profile", style = MaterialTheme.typography.headlineSmall)
-        Text("Name: Ryan Dooley")
+        Text("Name: Gordon Ramsey")
     }
 }
