@@ -47,7 +47,7 @@ fun HomeScreen() {
 
         Spacer(modifier = Modifier.height(12.dp))
         Text(
-            text = "Your one-stop shop for discovering your next favorite recipe.",
+            text = stringResource(R.string.slogan),
             style = MaterialTheme.typography.bodyLarge,
             color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.8f),
             textAlign = TextAlign.Center,
@@ -56,7 +56,7 @@ fun HomeScreen() {
 
         Spacer(modifier = Modifier.height(32.dp))
         Text(
-            text = "Browse recipes using the bottom menu!",
+            text = stringResource(R.string.nav_prompt),
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.secondary
         )
