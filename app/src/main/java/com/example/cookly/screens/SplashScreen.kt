@@ -1,4 +1,4 @@
-package com.example.cookly.features.recipe
+package com.example.cookly.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
