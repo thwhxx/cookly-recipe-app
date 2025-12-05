@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Cookly</string>
+    <string name="title">Cookly Recipes</string>
 </resources>
